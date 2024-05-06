@@ -1,0 +1,15 @@
+{% load static %}
+
+@font-face {
+    font-family: Audiowide;
+    src: url({% static 'shopping_list/Audiowide-Regular.ttf' %});
+}
+
+body {
+    background-image: url('shopping_list.jpg');
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;    
+    font-family: Audiowide, 'Times New Roman', Times, serif;
+}
